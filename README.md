@@ -18,4 +18,25 @@ An array of the obects, the order of the array is the order of the guide. Object
 * icon: string using font-awesome spec
 * body: markdown or html string
 
+### Example
 
+```let guideArray = [
+                {
+                    "title": "my first highlight",
+                    "target": "p .hello",
+                    "body": "this is how you say hello",
+                    "icon": "edit"
+                },
+                {
+                    "title": "my second highlight",
+                    "target": ".helloNumberTwo",
+                    "body": "this is asdas asdhow you say hello",
+                    "icon" : "alert"
+                },
+                {
+                    "title": "my third highlight",
+                    "target": ".rightside",
+                    "body": "this isasdasd how you say hello",
+                    "icon" : "alert"
+                }
+            ]```
