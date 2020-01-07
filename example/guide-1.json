@@ -1,0 +1,15 @@
+[
+    {
+        "title": "my first highlight",
+        "target": "p .hello",
+        "body": "this is how you say hello",
+        "icon": "edit"
+    },
+    {
+        "title": "my first highlight",
+        "target": "p .helloNumberTwo",
+        "body": "this is how you say hello",
+        "icon" : "alert"
+    }
+
+]

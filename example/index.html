@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Interactive Help Guides</title>
+        <style>
+            * { margin: 0px; padding: 0px;  }
+        </style>
+        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+        <script src="../interactive-help-guides.js"></script>
+        
+    </head>
+    <body>
+        <div class="container mx-auto">
+            <div class="flex flex-row bg-gray-200">
+                <div class="text-gray-700 text-center bg-gray-400 px-4 py-2 m-2">
+                    <p>
+                        <span class="hello bg-gray-100">hello</span>
+                    </p>
+                </div>
+
+                <div class="text-gray-700 text-center bg-gray-600 px-4 py-40 m-40 helloNumberTwo">
+                    <span>hello again</span>
+                </div>
+
+                <div class="flex-initial text-gray-700 text-center bg-gray-400 px-4 py-2 m-2 rightside">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ad labore ipsam, aut rem quo repellat esse tempore id, quidem
+                  </div>
+            </div>
+        </div>
+        <script>
+            let guideArray = [
+                {
+                    "title": "my first highlight",
+                    "target": "p .hello",
+                    "body": "this is how you say hello",
+                    "icon": "edit"
+                },
+                {
+                    "title": "my second highlight",
+                    "target": ".helloNumberTwo",
+                    "body": "this is asdas asdhow you say hello",
+                    "icon" : "alert"
+                },
+                {
+                    "title": "my third highlight",
+                    "target": ".rightside",
+                    "body": "this isasdasd how you say hello",
+                    "icon" : "alert"
+                }
+
+            ]
+
+            const myguide = new InteractiveHelpGuide(guideArray);
+        </script>
+        
+    </body>
+</html>
