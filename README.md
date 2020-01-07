@@ -20,7 +20,8 @@ An array of the obects, the order of the array is the order of the guide. Object
 
 ### Example
 
-```let guideArray = [
+```
+let guideArray = [
                 {
                     "title": "my first highlight",
                     "target": "p .hello",
@@ -39,4 +40,5 @@ An array of the obects, the order of the array is the order of the guide. Object
                     "body": "this isasdasd how you say hello",
                     "icon" : "alert"
                 }
-            ]```
+            ]
+```
